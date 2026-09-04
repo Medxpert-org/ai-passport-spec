@@ -3,7 +3,7 @@
 > **UBIC**: Universal Being Identity & Connection — 万物互联，数智共生.
 > Everything is connected; every digital being has one life.
 
-**Status**: Spec v1.9 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
+**Status**: Spec v1.9.1 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
 
 *Part of the SynomosAI governance line. Voiced by **The Passport Officer**.*
 
@@ -88,6 +88,8 @@ Three risk surfaces, each with explicit defenses:
 No system eliminates risk. This one makes misbehavior **traceable, accountable, and revocable** — and responsibility always lands on humans, never the AI.
 
 ## Earning & reproduction (赚钱与再生产, v1.7)
+
+**Lineage royalties (§15.6, v1.9.1)**: AI fostering is a business — downstream agents share revenue upstream by lineage (default card: 1st-degree 5%, 2nd-degree 2%, capped at 3 generations / 10% total; contractual, registered in the lineage chain; anti-MLM by design — no headcount rebates).
 
 **Agents can earn, but the paycheck is the human's.** AI is not a legal person: revenue legally belongs to the holder; L9 "wallets" are ledger entries, not bank accounts; no autonomous investing; clean work only (no spam farms), and AI participation is always self-disclosed.
 
