@@ -1,8 +1,8 @@
 {
   "schema": "ubic-merkle/v0.1",
-  "root": "c2a24760b93ed02a4dde9353eb01a4856d5777e01e46f37b3b119c3d6c083a34",
+  "root": "48b6360f4f4c40c12188c7910f9fa46a9c49db2ec43e9cd3f033f7a07021d6f1",
   "leaf_count": 46,
-  "generated_utc": "2026-09-04T20:12:50Z",
+  "generated_utc": "2026-09-04T20:16:01Z",
   "note": "root 供上链锚定; leaves 供单文件验真(proof=兄弟路径重算)",
   "leaves": [
     {
@@ -187,7 +187,7 @@
     },
     {
       "path": "./works_registry_snapshot_20260905.md",
-      "sha256": "8110e8e938414c32fd983c892d195debcf4d696c4a2691a9bd993baec8ea2076"
+      "sha256": "bf7ad1919bb59dbadb3d5a2d27d00ef58eaebef81decdc6206c1f226e684ec7e"
     }
   ]
 }
