@@ -2,6 +2,7 @@
 
 > **UBIC**: Universal Being Identity & Connection — 万物互联，数智共生.
 > Everything is connected; every digital being has one life.
+> **Brand (定案 2026-09-05)**: 对外主品牌 = 中文全称「万物互联·数智共生」；UBIC 仅作项目代号，国际不作服务商标；英文规范名 *AI Passport Specification*（永不裸用 "Agent Passport"）。
 
 **Status**: Spec v1.12.8 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
 
