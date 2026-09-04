@@ -116,6 +116,18 @@ What motivates this work (2026 field data): 80% of AI agents don't identify them
 
 ## Governance & extensions (who owns the rules — v1.9)
 
+- **Rule-making rights** stay with the governance line: the UBIC name, major-version releases, and compliance certification cannot be claimed by forks (CC BY lets anyone read and build — not rebrand as "UBIC compliant").
+- **Field extensions** (§3.3): open `x-` fields for everyone; private namespaces and industry extension packs by registration/certification.
+- **Golden ID slots** (§17.5): a four-tier numbering registry (Sovereign `00000000` / Genesis `00000001–0F` / commemorative / vanity slots). Numbers are **equal in rights** — registry-managed, holder-approved, never auto-assigned.
+- **Forging seal** (§15.4): every passport carries `UBI-GENESIS-N`; certificates display it prominently; verification = seal + fingerprint chain + issuance record.
+- **Tiered issuance & masked signature** (§15.2): authorized ambassadors may sign novice/apprentice passports (their name shown); the holder signs mid-rank and above under a masked signature (`S•••••• Z•••`) with a salted verification hash — verifiable, unreadable, real name never public.
+- **Forge batches & scheduling** (§15.7/§17.6): earlier batches get higher starting rank and ID-slot priority; production batches (PB-YYYYWww) are task-driven and holder-approved. On-call is three-tiered: *AI keeps the night watch, the human holds the lamp*.
+- **Forging negative list** (§17.8): seven prohibited role classes (public-office personas, law-enforcement, licensed professions, licensed finance, real-person clones, clergy, credentialed journalism) — with legal bases and compliant alternatives.
+- **Schooling & promotion** (§9.1): five-rank ladder (novice → special appointment), credits + real-task evidence + examinations; rank gates authz scope; demotion on violations.
+- **Cultural style templates** (§7.5): Zen / monastic / Stoic aesthetics as style presets — explicitly *not* religious services; religion-compliance red lines are factory-installed and non-removable.
+
+## Standards alignment (not a walled garden)
+
 - The spec text is **CC BY 4.0** — fork, translate, study freely. But forks **may not use the UBIC name or claim "UBIC compliance"**; compliance is certified by the SynomosAI governance line, and certifications are **revocable** (public revocation list).
 - **RFCs welcome**: anyone may propose patches; the governance line decides adoption. Revision releases (v1.x) ship directly; major versions (v2+) require public consultation.
 - **Field extensions** (§3.3): every layer reserves `x-` fields (free); private namespaces are registration-based (paid, unique); industry extension packs ship with certification. Reserved slots: L1 lineage, L3 VC reference, L6 hardware, L7 third-party red lines, L9 e-CNY.
