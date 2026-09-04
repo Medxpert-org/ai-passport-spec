@@ -128,6 +128,13 @@ What motivates this work (2026 field data): 80% of AI agents don't identify them
 | ERC-8004 identity/reputation/validation registries | ✅ spec-level alignment (on-chain path not used domestically) |
 | **ERC-721 + ERC-5192 on-chain passport** | ✅ v1.4 scheme: one passport = one NFT (metadata = fingerprint anchors only; **nine-layer details never on-chain**); soulbound lock — passports cannot be bought or sold; mint=issue, burn=revoke |
 | ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024 | ✅ XCGS governance layer |
+| **Singapore CSA Addendum on Securing Agentic AI (2025.10)** | ✅ addresses the "architecturally unresolved gap" in agent identity: trusted agent registry ↔ our roster; verifiable credentials ↔ our VC mapping; impersonation threat T9 ↔ our identity self-reporting |
+| **Six-Nation Joint Guidance (ACSC·CISA·NSA·CCCS·NCSC-NZ·NCSC-UK, 2026.04)** | ✅ convergent controls implemented: per-agent cryptographic identity, scoped credentials, human approval gates, reasoning-trace logging |
+| **OWASP Agentic Applications Top 10 (2025.12, ASI01-10)** | 🟡 mapping target for red-team acceptance suites |
+| **UK CMA guidance on AI agents (2026.03) · South Korea AI Framework Act (2026.01) · China TC260 agent security guidance (2026.03)** | 🟡 tracking: disclosure duty, deployment-tier logic, and agent asset registry mirror our §15.7 / §2.1 / roster |
+| **Singapore IMDA Model AI Governance Framework for Agentic AI (MGF v1.0, WEF Davos 2026-01)** | ✅ aligned: unique agent identities, least-privilege authorization, named human accountability, traceability — UBIC implements these as passport + authz + fingerprint chain |
+| WEF "AI Agents in Action" playbook — ACAP (Agent Capability & Authorization Profile) | 🟡 complementary: ACAP ≈ our authz-policy + capability card; interoperable by design |
+| UN Independent Scientific Panel on AI · Global Dialogue (Global Digital Compact) | 🟡 observation layer: evidence & dialogue bodies, no identity infrastructure — states/standards bodies fill that gap (e.g. GB/Z 185) |
 | ISO/IEC 23894 · FIDO Agentic WG · CoSAI · EU AI Act/MiCA | 🟡 tracking (not claimed as certified) |
 
 ## Ecosystem roles (机构生态)
