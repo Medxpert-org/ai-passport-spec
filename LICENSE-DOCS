@@ -1,0 +1,18 @@
+DOCUMENTATION LICENSE — CC BY 4.0
+
+Applies to: the specification text and all documentation in this
+repository (`docs/`, `README.md`, `proposals/`).
+
+The AI Passport Specification (UBIC) documentation by SynomosAI is
+licensed under Creative Commons Attribution 4.0 International.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt the material for any purpose, provided
+you give appropriate credit (attribution to "SynomosAI — AI Passport
+Specification / UBIC"), provide a link to the license, and indicate if
+changes were made.
+
+The specification is provided "AS IS", without warranty of any kind.
+The code in `tools/` and `contracts/` is licensed separately under the
+MIT License — see LICENSE.

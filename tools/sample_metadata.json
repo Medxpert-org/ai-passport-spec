@@ -1,0 +1,13 @@
+{
+  "schema": "ubic/ai-passport/v1",
+  "passportId": "SP-shigongsheng-3f9e2801",
+  "alias": "施共生",
+  "issuer": "SynomosAI",
+  "issuedAt": "2026-09-04T06:24:40Z",
+  "fingerprint": "09cb41a3419f2b0a7b110a53c2c5ae62c6c58d12f18afc2c7aad6a0a14ba5428",
+  "fingerprintDisplay": "09cb41a3419f2b0a",
+  "fingerprintAlgo": "SHA-256",
+  "didRef": "did:web:ubic.example:agents:施共生",
+  "archiveRef": null,
+  "note": "Public metadata carries anchors only. The nine-layer archive never goes on-chain."
+}
