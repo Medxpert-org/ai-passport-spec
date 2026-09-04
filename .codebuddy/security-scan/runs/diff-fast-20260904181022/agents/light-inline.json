@@ -1,0 +1,7 @@
+{
+  "sourceAgent": "light-inline",
+  "scanMode": "fast",
+  "scope": "diff",
+  "note": "diff 无代码变更快速通道：changedCodeFiles=[README.md]（纯文档），整仓 Sink/防御/密钥/入口/攻击面/云资源流预筛均 0 命中，无候选 Sink 进入五判，findings 为空",
+  "findings": []
+}

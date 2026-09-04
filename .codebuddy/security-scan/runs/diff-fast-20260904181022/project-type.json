@@ -1,0 +1,39 @@
+{
+  "project_type": "未知",
+  "project_type_code": "unknown",
+  "product_category": "未知",
+  "product_subtype": "规范文档仓库（含参考样例代码）",
+  "product_shape": "未知",
+  "product_shape_decision": "未知",
+  "product_shape_evidence_chain": {
+    "decision": "未知",
+    "evidence": [
+      {
+        "path": "README.md",
+        "lines": "1-5",
+        "snippet": "# UBIC — AI Passport Specification (AI 护照规范) ... This repo is the canonical, version-controlled home of the specification",
+        "reason": "仓库自述为 AI 护照规范的版本化主目录，核心产物是规范文档而非可运行服务"
+      },
+      {
+        "path": "contracts/UBICPassport.sol",
+        "lines": "2-3",
+        "snippet": "// UBICPassport.sol — AI Passport on-chain reference draft (NOT audited, NOT deployed)",
+        "reason": "Solidity 合同为参考草稿，明确标注未审计未部署，不构成在线 web/数据库服务入口"
+      },
+      {
+        "path": "tools/gen_passport.py",
+        "lines": "1-6",
+        "snippet": "gen_passport.py — 计算专家包 SHA-256 指纹，并生成护照链下元数据（tokenURI 内容雏形）。用法: python gen_passport.py <package-dir> ...",
+        "reason": "唯一 Python 文件为本地离线 CLI 工具（argparse，无网络入口），不属于客户端/AI agent/web/数据库任何一类"
+      },
+      {
+        "path": "tools/sample_metadata.json",
+        "lines": "1",
+        "snippet": "静态示例元数据 JSON",
+        "reason": "静态示例数据文件，无运行时入口"
+      }
+    ],
+    "conclusion": "纯文档规范仓库（.md 为主）+ 未部署参考样例（.sol/.py/.json），无 HTTP 服务端、无客户端 UI、无 AI agent 运行时、无数据库连接层，故判定为「未知」。"
+  },
+  "scan_timestamp": "2026-09-04T18:12:00+08:00"
+}
