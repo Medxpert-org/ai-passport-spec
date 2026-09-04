@@ -83,6 +83,6 @@ agent-memory/
 
 ---
 
-*© 2026 SynomosAI. Proposal text: CC BY 4.0. 本提案按「现状」提供，不附任何担保。对齐文件：《AI 护照规范》v1.8、《全球论坛 AI 身份未解决问题调研》2026-09-04。*
+*© 2026 SynomosAI. Proposal text: CC BY 4.0. 本提案按「现状」提供，不附任何担保。对齐文件：《AI 护照规范》v1.9、《全球论坛 AI 身份未解决问题调研》2026-09-04。*
 
 *This proposal is part of the SynomosAI governance line behind MedXpertGlobal. AI-assisted, human-verified, fully traceable.*

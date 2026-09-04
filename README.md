@@ -3,7 +3,7 @@
 > **UBIC**: Universal Being Identity & Connection — 万物互联，数智共生.
 > Everything is connected; every digital being has one life.
 
-**Status**: Spec v1.8 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
+**Status**: Spec v1.9 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
 
 *Part of the SynomosAI governance line. Voiced by **The Passport Officer**.*
 
@@ -112,6 +112,12 @@ UBIC answers a different question: ***who is this agent over its whole life?*** 
 
 What motivates this work (2026 field data): 80% of AI agents don't identify themselves to websites and ~80% of sites don't verify agent claims (DataDome H1 2026, 79.7% of tested sites let a spoofed agent through); only 21.9% of organizations treat agents as independent identities (CSA survey, n=285); agent-impersonation bypasses rose from 15% to 45% of enterprises year-over-year (Ruishu Bots & Agents report 2026). Identity is the gap everyone is racing to fill — we contribute the life-record layer.
 
+## Governance & extensions (who owns the rules — v1.9)
+
+- The spec text is **CC BY 4.0** — fork, translate, study freely. But forks **may not use the UBIC name or claim "UBIC compliance"**; compliance is certified by the SynomosAI governance line, and certifications are **revocable** (public revocation list).
+- **RFCs welcome**: anyone may propose patches; the governance line decides adoption. Revision releases (v1.x) ship directly; major versions (v2+) require public consultation.
+- **Field extensions** (§3.3): every layer reserves `x-` fields (free); private namespaces are registration-based (paid, unique); industry extension packs ship with certification. Reserved slots: L1 lineage, L3 VC reference, L6 hardware, L7 third-party red lines, L9 e-CNY.
+
 ## Standards alignment (not a walled garden)
 
 | Standard | Status |
@@ -141,7 +147,7 @@ ai-passport-spec/
 ├── LICENSE                          ← MIT (code: tools/, contracts/)
 ├── LICENSE-DOCS                     ← CC BY 4.0 (spec & docs)
 ├── docs/
-│   └── AI护照规范_v1.8_20260904.md  ← canonical spec (中文, v1.8)
+│   └── AI护照规范_v1.9_20260904.md  ← canonical spec (中文, v1.8)
 ├── proposals/
 │   └── AGENT_MEMORY_FORMAT.md       ← Agent Memory Format draft proposal
 ├── contracts/                       ← ERC-721+ERC-5192 reference contract (draft)
