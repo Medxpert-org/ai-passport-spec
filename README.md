@@ -169,7 +169,7 @@ ai-passport-spec/
 ├── LICENSE                          ← MIT (code: tools/, contracts/)
 ├── LICENSE-DOCS                     ← CC BY 4.0 (spec & docs)
 ├── docs/
-│   └── AI护照规范_v1.12.7_20260904.md  ← canonical spec (中文, v1.12.8；文件名保留 v1.12.7，版本行为准)
+│   └── AI护照规范_v1.12.8_20260904.md  ← canonical spec (中文, v1.12.8 创立日终版)
 ├── proposals/
 │   └── AGENT_MEMORY_FORMAT.md       ← Agent Memory Format draft proposal
 ├── contracts/                       ← ERC-721+ERC-5192 reference contract (draft)
