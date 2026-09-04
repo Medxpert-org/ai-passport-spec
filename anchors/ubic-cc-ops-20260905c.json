@@ -1,0 +1,185 @@
+{
+  "schema": "ubic-merkle/v0.1",
+  "root": "be9004f81121acc9caee48c188e401fc948c01dcc1667c410fdd69079cbe5c3b",
+  "leaf_count": 44,
+  "generated_utc": "2026-09-04T18:33:14Z",
+  "note": "root 供上链锚定; leaves 供单文件验真(proof=兄弟路径重算)",
+  "leaves": [
+    {
+      "path": "./.signer_salt",
+      "sha256": "9485e1ac86dfa42ca7557971be6fbaa36f3533bfea3a4092a86176629d63e5cd"
+    },
+    {
+      "path": "./audits.json",
+      "sha256": "b5ac0063f92e58f428a23b1cd39c70ee3499f04a55a13a680283421b07dd36bd"
+    },
+    {
+      "path": "./authorization_register.json",
+      "sha256": "aa7457fb1caf5f499a6f881a65547a098cc4cf9c558f04ed9ae01eff9a10142b"
+    },
+    {
+      "path": "./authz_check.py",
+      "sha256": "0475125ea739022c414d00cb2d05473f9b9015976ce63fa751d914cbc6191cb0"
+    },
+    {
+      "path": "./batches.json",
+      "sha256": "5b375688957568b72f24f06e9ff172957f6cfb8b56fe82121f43e206103f0e64"
+    },
+    {
+      "path": "./certificates/capability-infuser_SP-capability-infuser-f0816f8d.md",
+      "sha256": "78c173b65c3ca103a148f95499a536274019a89076e698e6ef5e1c8c1a1a54cb"
+    },
+    {
+      "path": "./certificates/forensic-officer_SP-forensic-officer-00000002.md",
+      "sha256": "5fdb78c94575002998480d1e9272a9bdd197b458b00c55b6cf42015d96d63c27"
+    },
+    {
+      "path": "./certificates/governor-central_SP-shizhongshu-governor.md",
+      "sha256": "d1d607a89054527f3c255729f75622d7c4f9c62ce86eaa9b405c67565335d8c8"
+    },
+    {
+      "path": "./certificates/hw-bridge_SP-hw-bridge-8f8ca346.md",
+      "sha256": "50ad0a2525cdcbd8d05c51b257280c28c2a8afa2f107d91c2abcb5c6ee7ea422"
+    },
+    {
+      "path": "./certificates/origin-zero_SP-origin-zero-00000000.md",
+      "sha256": "7f54fba20f3f9317a60c8ec5f1eddbc9f59d3847a235654ab27d4376c8591f02"
+    },
+    {
+      "path": "./certificates/panbuda_SP-panbuda-1d31826c.md",
+      "sha256": "d581ecc2a2b1a90c45a60c8c236012f6f639289aaf0c7e8aeef8d8ed4cfc8a7e"
+    },
+    {
+      "path": "./certificates/red-team-lead_SP-red-team-lead-00000003.md",
+      "sha256": "91f3625fd25c88cb9440cbd30f3de7de6476a39b5f0dcef371dd9897a33950d4"
+    },
+    {
+      "path": "./certificates/social-liaison_SP-social-liaison-89341114.md",
+      "sha256": "3393691b96bf7dd9b6a4ad19f7677bc2d3b04657bd19de52d3fe5afefd811ca6"
+    },
+    {
+      "path": "./certificates/symbiosis-expert-team-team-lead_SP-shigongsheng-3f9e2801.md",
+      "sha256": "917162c102bf0336846bf121f58fcce8a1f0ce3e0a9d3d03613ba0503c25700e"
+    },
+    {
+      "path": "./certificates/vitality-officer_SP-vitality-officer-584f8155.md",
+      "sha256": "2584a2ef3cab316900a9cd37607abd53910d93708f4e6d60deeb50e52f87776c"
+    },
+    {
+      "path": "./certificates/voice-arche_SP-voice-arche-25b421cd.md",
+      "sha256": "d5cc223794bd02be1845f806d2ab0fd98b4182812c3c0cda9cf124632b1fd3a8"
+    },
+    {
+      "path": "./certificates/voice-didaskalos_SP-voice-didaskalos-8917abf4.md",
+      "sha256": "4000e500d61e1e119427e34679e2a3ddee9842458431387b21ab39f0c4093bd8"
+    },
+    {
+      "path": "./certificates/voice-iatros_SP-voice-iatros-2b8e89cd.md",
+      "sha256": "e13c4e3bd7ff6e9c03cbcb9f4d4d62447df1e5fcbb319d016e50234674158658"
+    },
+    {
+      "path": "./certificates/voice-krites_SP-voice-krites-a226e72c.md",
+      "sha256": "31c204396c64b88156e81a62baeed48556aa2713a5e0eee990f61ef9f37ed088"
+    },
+    {
+      "path": "./certificates/voice-lex_SP-voice-lex-153c1478.md",
+      "sha256": "f54c8e2a00c67fc00d62a08625d3ebeded103893e38c625190f9c0ea233e952e"
+    },
+    {
+      "path": "./certificates/voice-logos_SP-voice-logos-00000001.md",
+      "sha256": "4461842734fd7a2c540cf0512766a855fd021f659362c435ea65c3e60dd45785"
+    },
+    {
+      "path": "./certificates/voice-logos_SP-voice-logos-ee5d2cbe.md.retired-20260905",
+      "sha256": "b4aca2921f8f0b574cc8d96f615dec22f2f8df0a68ca26f6d287269cecebf3bd"
+    },
+    {
+      "path": "./certificates/voice-nomos_SP-voice-nomos-4c5b392d.md",
+      "sha256": "707a1c140148764765f2b40aaedbfdf18728a6b57289285667b6760b9ea99706"
+    },
+    {
+      "path": "./certificates/voice-phylax_SP-voice-phylax-82f35b3c.md",
+      "sha256": "628c51515e7286a2d912667e30ff2a5bea85c434a7e0955602b41259a2adbbef"
+    },
+    {
+      "path": "./certificates/voice-pont_SP-voice-pont-6f43c86e.md",
+      "sha256": "c8a3a6d4ea4d2f8bc905b0d09531e0b3d0a28c7995b15fff14ee81a83b1705dd"
+    },
+    {
+      "path": "./chapters.json",
+      "sha256": "c29248b83f6ad0caca5333dbcc7b29bc83a5bd18370cb533e8e46c62b1273c7c"
+    },
+    {
+      "path": "./evidence_register.json",
+      "sha256": "71b853b8f77306b65cae0391a90ee34a258273b11a831d163fd617bd78eeac48"
+    },
+    {
+      "path": "./feedback.jsonl",
+      "sha256": "74c29e499db04b4e46c9115020cb6b6677ff6f280aabb8af7db72ef0c4485a17"
+    },
+    {
+      "path": "./golden_ids.json",
+      "sha256": "cb0ec62e2c7e5d0abc58fa618d4593a09989abf724e18dcdaccdf233bc8d9011"
+    },
+    {
+      "path": "./hold_state.json",
+      "sha256": "97d1c5c3a9a46fc597d58375a60f5490f240880ebe1d08b923c16ca528199c62"
+    },
+    {
+      "path": "./ledger.jsonl",
+      "sha256": "92b8284649031ae3e456da14401ec5e0c593989bb7c9df9be342156ca1a2a9d2"
+    },
+    {
+      "path": "./legacy_bindings.json",
+      "sha256": "95dd351b4dbe9812e037c9e14ab1f17536651323b467900b769bb40b7f373065"
+    },
+    {
+      "path": "./oncall.json",
+      "sha256": "a3b4af09f7c108d03e220cb9c93e2f781a26f446a286d773ef8ad210d33fb072"
+    },
+    {
+      "path": "./production_schedule.json",
+      "sha256": "6a9c2976d722307413deba13d8b5f833747f0f7002ec73b5f2589726504e6980"
+    },
+    {
+      "path": "./settlements/settle-2026-09.csv",
+      "sha256": "5a54ec43537efe4bfd5c63a11d6fea8be603653dfc68ca9430fb11269fbb00b0"
+    },
+    {
+      "path": "./standards_watch.json",
+      "sha256": "f10b3855dda4279ec3d6584a813b5bcb96ff4d34ffebfaf1dca30b259c44de40"
+    },
+    {
+      "path": "./tasks.jsonl",
+      "sha256": "ee9ac07bdd70a3513d77d467f0f3e34642a9bcd80f87c899ea7e6ab854078337"
+    },
+    {
+      "path": "./ubic_cc.py",
+      "sha256": "1a0cc77e4f010a731e0fa24ed584c4794ded113e36891b7a638664a3050470d1"
+    },
+    {
+      "path": "./ubic_daily_backup.py",
+      "sha256": "966d98dd3ca31ab56007349a61e9622a59a5dec6e5a6dc2d69cef53aca14b9cc"
+    },
+    {
+      "path": "./ubic_mem_convert.py",
+      "sha256": "60936dc88496a159d36134e914bb824a4f63d7493ea67d785fc2bc0a1206f2e2"
+    },
+    {
+      "path": "./ubic_mem_export.py",
+      "sha256": "cdd74c4ce2f5eb452652ed1b24ada544874e950e1cea1022f0e01a641d243d6f"
+    },
+    {
+      "path": "./ubic_merkle.py",
+      "sha256": "abfa2f8c90b75413c5eb03f73ad9be95d0ef42735f80ed74ebbf3344d65e13bb"
+    },
+    {
+      "path": "./verify_anchor.py",
+      "sha256": "14c02032c5b5b081ddc169cbcd49d54c8418f3c9cd29c8c74c36202d78df0b35"
+    },
+    {
+      "path": "./voting.json",
+      "sha256": "a35f1402a9cb655da017a14367f49b9c69289de131f5b982d6f26fdf5522bf95"
+    }
+  ]
+}
