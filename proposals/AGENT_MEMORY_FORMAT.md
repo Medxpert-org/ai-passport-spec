@@ -5,6 +5,8 @@
 > **提出**：UBIC 项目（万物互联，数智共生）· SynomosAI · 2026-09-04
 > **一句话**：给 AI 记忆一个 `contacts.vcf` —— 一个任何平台、任何模型、任何 runtime 都能读写的开放记忆格式。
 
+*Part of the SynomosAI governance line (AI Passport Regime pillar). Voiced by **The Passport Officer**.*
+
 ---
 
 ## 1. Problem
@@ -82,3 +84,5 @@ agent-memory/
 ---
 
 *© 2026 SynomosAI. Proposal text: CC BY 4.0. 本提案按「现状」提供，不附任何担保。对齐文件：《AI 护照规范》v1.8、《全球论坛 AI 身份未解决问题调研》2026-09-04。*
+
+*This proposal is part of the SynomosAI governance line behind MedXpertGlobal. AI-assisted, human-verified, fully traceable.*

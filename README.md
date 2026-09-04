@@ -5,6 +5,8 @@
 
 **Status**: Spec v1.8 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
 
+*Part of the SynomosAI governance line. Voiced by **The Passport Officer**.*
+
 An AI Passport is the **single authoritative identity file of an AI** — nine layers of record, five jobs in one document. This repo is the canonical, version-controlled home of the specification (中文原版 in `docs/`, EN translation in progress).
 
 ## Why a passport for AI?
@@ -149,3 +151,5 @@ ai-passport-spec/
 ## License & authorship
 
 © 2026 SynomosAI. Specification text & docs: **CC BY 4.0** (see `LICENSE-DOCS`). Code in this repo (`tools/`, `contracts/`): **MIT** (see `LICENSE`). AI-generated parts subject to applicable law; the specification is a human-authored work.
+
+*This page is part of the SynomosAI governance line behind MedXpertGlobal. AI-assisted, human-verified, fully traceable.*
