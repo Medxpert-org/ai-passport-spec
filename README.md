@@ -3,7 +3,7 @@
 > **UBIC**: Universal Being Identity & Connection — 万物互联，数智共生.
 > Everything is connected; every digital being has one life.
 
-**Status**: Spec v1.9.4 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
+**Status**: Spec v1.12.8 (2026-09-04) · **Governance**: XCGS (aligned with ISO/IEC 42001 · NIST AI RMF · OWASP Agentic Top 10 · GB/T 45081-2024) · **By**: SynomosAI
 
 *Part of the SynomosAI governance line. Voiced by **The Passport Officer**.*
 
@@ -132,7 +132,7 @@ What motivates this work (2026 field data): 80% of AI agents don't identify them
 - **RFCs welcome**: anyone may propose patches; the governance line decides adoption. Revision releases (v1.x) ship directly; major versions (v2+) require public consultation.
 - **Field extensions** (§3.3): every layer reserves `x-` fields (free); private namespaces are registration-based (paid, unique); industry extension packs ship with certification. Reserved slots: L1 lineage, L3 VC reference, L6 hardware, L7 third-party red lines, L9 e-CNY.
 
-## Standards alignment (not a walled garden)
+## Standards alignment (table)
 
 | Standard | Status |
 |---|---|
@@ -168,7 +168,7 @@ ai-passport-spec/
 ├── LICENSE                          ← MIT (code: tools/, contracts/)
 ├── LICENSE-DOCS                     ← CC BY 4.0 (spec & docs)
 ├── docs/
-│   └── AI护照规范_v1.9_20260904.md  ← canonical spec (中文, v1.8)
+│   └── AI护照规范_v1.12.7_20260904.md  ← canonical spec (中文, v1.12.8；文件名保留 v1.12.7，版本行为准)
 ├── proposals/
 │   └── AGENT_MEMORY_FORMAT.md       ← Agent Memory Format draft proposal
 ├── contracts/                       ← ERC-721+ERC-5192 reference contract (draft)

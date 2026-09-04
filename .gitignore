@@ -1,0 +1,4 @@
+# 本地扫描产物与工具缓存（不入库）
+.codebuddy/
+__pycache__/
+*.pyc
