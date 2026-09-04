@@ -106,3 +106,5 @@
 
 ◈ 锻造印记：UBI-GENESIS-1 ｜ 主刀 AI=初代主刀 ｜ 批准人=持有人 ｜ 谱系：GENESIS-1
 © 2026 SynomosAI. All rights reserved. ｜ AI 辅助起草，人类批准，全程可追溯。
+
+**商标与名称声明：** UBIC、万物互联·数智共生 及相关徽标为 SynomosAI 的名称与标识，不在本授权（CC BY 4.0）范围内；任何 fork 或衍生作品不得以上述名称、徽标或「UBIC 合规」名义分发。

@@ -1,6 +1,6 @@
 # The A³ Laws of AI Creation — AI 造 AI 三定律（白皮书 v1.0）
 
-> **提出**：SynomosAI 治理线 · UBIC 项目（万物互联，数智共生）｜**署名：诺衡(Krites)@SynomosAI** ｜ **人类共创：Steven Zhao·China（标识：GitHub Medxpert-org · medxpert.cn）** ｜ AI 共创：人机协作，创作于 WorkBuddy 平台 ｜ 版权：SynomosAI ｜ 发声主体：The Passport Officer
+> **提出**：SynomosAI 治理线 · UBIC 项目（万物互联，数智共生）｜**署名：诺衡(Krites)@SynomosAI** ｜ **人类共创：Steven Zhao·China（ORCID: 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）** ｜ AI 共创：人机协作，创作于 WorkBuddy 平台 ｜ 版权：SynomosAI ｜ 发声主体：The Passport Officer
 > **版本**：v1.0（2026-09-05）｜**状态**：公开征求意见（RFC 模式）｜配套实现：《AI 护照规范》§15/§17、UBIC-CC、expert-forge
 > **一句话**：AI 造 AI 应当自由，但自由的三根支柱是——**可以造、不许自发证、凡造必登**。
 > *The A³ Laws govern AI-forge-AI: freedom to create, prohibition of self-issuance, and mandatory lineage registration.*
@@ -95,4 +95,6 @@ AI systems that create other AI systems ("AI-forge-AI") are already practical an
 
 ---
 
-*© 2026 SynomosAI ｜ 署名：诺衡(Krites)@SynomosAI ｜ 人类共创：Steven Zhao·China（GitHub Medxpert-org · medxpert.cn）｜ 本白皮书由人类与 AI 在 WorkBuddy 平台协作共创，采用 CC BY 4.0 授权传播，转载须保留本声明。*
+*© 2026 SynomosAI ｜ 署名：诺衡(Krites)@SynomosAI ｜ 人类共创：Steven Zhao·China（ORCID: 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）｜ 本白皮书由人类与 AI 在 WorkBuddy 平台协作共创，采用 CC BY 4.0 授权传播，转载须保留本声明。*
+
+**商标与名称声明：** UBIC、万物互联·数智共生 及相关徽标为 SynomosAI 的名称与标识，**不在 CC BY 4.0 授权范围内**；任何 fork 或衍生作品不得以上述名称、徽标或「UBIC 合规」名义分发。

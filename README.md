@@ -180,4 +180,6 @@ ai-passport-spec/
 
 © 2026 SynomosAI. Specification text & docs: **CC BY 4.0** (see `LICENSE-DOCS`). Code in this repo (`tools/`, `contracts/`): **MIT** (see `LICENSE`). AI-generated parts subject to applicable law; the specification is a human-authored work.
 
+**Trademark notice:** "UBIC", 万物互联·数智共生 and related logos are names and marks of SynomosAI and are **not licensed under CC BY 4.0 or MIT**; forks and derivatives may not be distributed under these names, logos, or any "UBIC compliant" claim.
+
 *This page is part of the SynomosAI governance line behind MedXpertGlobal. AI-assisted, human-verified, fully traceable.*

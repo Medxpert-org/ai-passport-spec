@@ -14,5 +14,10 @@ Specification / UBIC"), provide a link to the license, and indicate if
 changes were made.
 
 The specification is provided "AS IS", without warranty of any kind.
+
+Trademark notice: "UBIC", 万物互联·数智共生 and related logos are names and
+marks of SynomosAI and are NOT licensed under this CC BY 4.0 grant; forks
+and derivatives may not be distributed under these names, logos, or any
+"UBIC compliant" claim.
 The code in `tools/` and `contracts/` is licensed separately under the
 MIT License — see LICENSE.
