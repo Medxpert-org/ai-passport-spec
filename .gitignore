@@ -2,3 +2,9 @@
 .codebuddy/
 __pycache__/
 *.pyc
+
+# === UBIC-Mem 记忆包防护（L2 敏感层 · 规范 §3.2/§11.3）===
+# 记忆包属持有人实名的 AI 记忆，永不作为凭证外发、永不进入公开仓库。
+*-ubicmem-*
+*.ubicmem.zip
+.crosscheck/

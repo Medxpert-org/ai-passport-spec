@@ -161,6 +161,33 @@ AI School (open to every organization) → AI Police (passport compliance) → R
 - Education/rank is our self-defined credential system — not state-recognized degrees.
 - 🟡 items above are "in tracking", never "certified".
 
+## Templates & formats (可直接取用的模板件)
+
+| 件 | 路径 | 用途 |
+|---|---|---|
+| 审计徽章 | `templates/audit-badge-template.svg` | 合规可视标记（可嵌入 README / 站点） |
+| 审计证书 | `templates/audit-certificate-template.md` | 审计报告签发证书模板 |
+| 审计报告 | `templates/audit-report-template.md` | 审计结论报告模板 |
+| 存量绑定申报表 | `templates/legacy-binding-declaration-form.md` | 历史 AI 的存量绑定（申报-确认-异议期） |
+| 记忆格式 | `proposals/AGENT_MEMORY_FORMAT.md` | UBIC-Mem 四层记忆格式草案 |
+| 协议 | `protocol/UBIC-Protocol-v0.1.md`（英文 `.en.md`） | 人格户籍层开放协议 v0.1 |
+| 身份/记忆 SDK | `tools/`（`ubic-protocol-js` v0.1） | 签发/验签/发现/记忆导出 |
+| 10 分钟上手 | `tools/QUICKSTART.md` | JS 与 Python 双路径 |
+
+### Proposals & drafts (占位草案 · 备忘锚定，非规范正文)
+
+| 草案 | 站位段落 | 说明 |
+|---|---|---|
+| `personality-spec-draft-00.md` | 第 1 段 设计层 | AI 规格书公开格式（全球空白·最高价值） |
+| `ai-credit-transfer-draft-00.md` | 第 4 段 培养层 | AI 学分互认（学分=可验证能力增量） |
+| `ai-liability-insurance-draft-00.md` | 第 5 段 经济层 | AI 责任险（可保性前提 + 理赔证据链） |
+| `cross-circle-visa-draft-00.md` | 第 6 段 社交层 | 跨圈层互认签证（双边、可撤销、降级承认） |
+| `ai-death-certificate-draft-00.md` | 第 10 段 退役层 | AI 退役证明公开格式（不可逆、状态可查） |
+| `coinhabitation-theory-outline-00.md` | 第 12 段 人机关系 | 人机共生理论学术化大纲（三条可证伪命题） |
+| `draft-zhao-agent-personhood-registry-00.md` | 国际标准通道 | IETF Internet-Draft 底稿 |
+
+> 纪律：规范冻结 30 天内新占位一律进 v2.0 立法储备池 + 备忘锚定，不进规范正文。
+
 ## Repository layout
 
 ```
@@ -170,10 +197,16 @@ ai-passport-spec/
 ├── LICENSE-DOCS                     ← CC BY 4.0 (spec & docs)
 ├── docs/
 │   └── AI护照规范_v1.12.8_20260904.md  ← canonical spec (中文, v1.12.8 创立日终版)
+├── protocol/
+│   ├── UBIC-Protocol-v0.1.md        ← 协议（中文·规范版）
+│   └── UBIC-Protocol-v0.1.en.md     ← 协议（英文版）
+├── discovery/                       ← 发现矩阵六件套（部署到站点 /.well-known/）
 ├── proposals/
-│   └── AGENT_MEMORY_FORMAT.md       ← Agent Memory Format draft proposal
+│   ├── AGENT_MEMORY_FORMAT.md       ← Agent Memory Format draft proposal
+│   └── draft-zhao-agent-personhood-registry-00.md  ← IETF 投稿底稿
+├── templates/                       ← 审计徽章 / 证书 / 报告 / 存量绑定申报表
 ├── contracts/                       ← ERC-721+ERC-5192 reference contract (draft)
-└── tools/                           ← fingerprint & metadata generators
+└── tools/                           ← 网关 / SDK / 指纹与 Merkle 工具 / 示例
 ```
 
 ## License & authorship

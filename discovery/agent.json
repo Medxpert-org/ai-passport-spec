@@ -1,0 +1,26 @@
+{
+  "schema": "ubic/agent-card/v1",
+  "name": "SynomosAI Governance AI",
+  "description": "Governance assessment agent: A3 four-dimension scorecard, ISO/IEC 42001 + NIST evidence templates, compliance checklist (EU AI Act 2024/1689 / GB/Z 185 reference / PIPL-GDPR), gov_scan PII-credential text screening. Install-by-consent only.",
+  "protocol": "UBIC Protocol v0.1",
+  "provider": {
+    "organization": "SynomosAI",
+    "url": "https://medxpert.cn"
+  },
+  "author": "赵兴华 (Steven Zhao·China | ORCID: 0009-0001-0512-1237)",
+  "capabilities": [
+    "a3_assess",
+    "audit_evidence_chain",
+    "compliance_checklist",
+    "passport_lookup",
+    "gov_scan"
+  ],
+  "auth": {
+    "mode": "install-by-consent",
+    "issuance": "reserved (A3 Law II: human issuance only)"
+  },
+  "anchors": {
+    "merkleRoot": "b8dcbf197e1c97b02a2b918a70589e1d034c8ce5c32b23bca81a4391e9b41cbb",
+    "batchId": "20260905g"
+  }
+}

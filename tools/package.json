@@ -1,0 +1,29 @@
+{
+  "name": "ubic-protocol-js",
+  "version": "0.1.0",
+  "description": "UBIC Protocol reference SDK for JS/TS — AI passport (issue/verify/discovery) and UBIC-Mem portable memory packages. Pure JS SHA-256/HMAC, zero dependencies, isomorphic (Node / browser / WeChat Mini Program).",
+  "keywords": [
+    "ubic", "ubic-protocol", "ai-passport", "agent-identity", "personhood-registry",
+    "ai-governance", "mcp", "memory-portability", "wechat-miniprogram", "iso-42001"
+  ],
+  "license": "MIT",
+  "author": "SynomosAI",
+  "homepage": "https://medxpert.cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Medxpert-org/ai-passport-spec.git",
+    "directory": "tools"
+  },
+  "main": "index.js",
+  "files": [
+    "ubicmem.js",
+    "ubic-passport.js",
+    "index.js",
+    "README.md"
+  ],
+  "engines": { "node": ">=14" },
+  "sideEffects": false,
+  "scripts": {
+    "test": "node test_ubicmem_crosscheck.js && node examples/quickstart.js"
+  }
+}

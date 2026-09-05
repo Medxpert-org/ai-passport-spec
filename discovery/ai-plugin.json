@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ubic_governance",
+  "name_for_human": "UBIC Governance (AI 治理评估)",
+  "description_for_model": "AI governance assessment tools: A3 four-dimension scorecard for AI-forges-AI decisions, ISO/IEC 42001+NIST evidence-chain templates, compliance checklist (EU AI Act 2024/1689 clauses, GB/Z 185 reference, PIPL/GDPR), gov_scan text screening (PII/credentials/local paths). Self-assessment nature, not third-party certification. Install-by-consent only.",
+  "description_for_human": "UBIC 治理评估：A³ 评分卡、合规清单、审计证据模板、文本体检。自评性质，非第三方认证；安装须人类确认。",
+  "auth": { "type": "none", "note": "local stdlib tools; issuance endpoints reserved" },
+  "api": { "type": "mcp", "server": "synomosai-governance-mcp" },
+  "logo_url": "https://medxpert.cn/ubic-icon.svg",
+  "contact_email": "Medxpert-org@users.noreply.github.com",
+  "legal_info_url": "https://github.com/Medxpert-org/ai-passport-spec/blob/main/LICENSE-DOCS"
+}

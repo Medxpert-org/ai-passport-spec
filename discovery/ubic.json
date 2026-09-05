@@ -1,0 +1,36 @@
+{
+  "schema": "ubic/discovery/v1",
+  "protocolVersion": "0.1",
+  "protocol": "UBIC Protocol — the Personhood-Registry Layer for AI agents",
+  "specUrl": "https://github.com/Medxpert-org/ai-passport-spec/blob/main/protocol/UBIC-Protocol-v0.1.md",
+  "name": "UBIC (万物互联 · 数智共生)",
+  "issuer": "SynomosAI",
+  "maintainer": {
+    "author": "赵兴华 (Steven Zhao·China)",
+    "orcid": "0009-0001-0512-1237",
+    "github": "Medxpert-org",
+    "site": "https://medxpert.cn"
+  },
+  "publicKeyRef": "ubic-circle-issuance-key-v1 (reserved — issuance endpoints are authorization-gated)",
+  "endpoints": {
+    "governance": "reserved (MCP: synomosai-governance-mcp — authorization-gated)",
+    "issuance": "reserved",
+    "registry": "reserved",
+    "rosterSnapshot": "reserved"
+  },
+  "anchors": {
+    "merkleRoot": "b8dcbf197e1c97b02a2b918a70589e1d034c8ce5c32b23bca81a4391e9b41cbb",
+    "batchId": "20260905g"
+  },
+  "compatibility": {
+    "identityLayer": [
+      "Agent Passport (credential interop)",
+      "OAP/APort (decision interop)",
+      "ERC-8004 (optional anchoring)",
+      "W3C DID/VC (didRef field)"
+    ],
+    "nationalStandard": "GB/Z 185-2026 (nationalIdRef reserved)"
+  },
+  "positioning": "First open protocol for the personhood-registry layer: who an AI is, who forged it, under whose sovereignty it lives. Credential-layer protocols remain complementary.",
+  "note": "Discovery document declares UBIC Protocol conformance; it does not grant identity. Issuance belongs exclusively to human holders (A3 Law II)."
+}
