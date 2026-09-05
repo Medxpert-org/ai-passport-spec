@@ -1,6 +1,6 @@
 # The A³ Laws of AI Creation — AI 造 AI 三定律（白皮书 v1.0）
 
-> **提出**：SynomosAI 治理线 · UBIC 项目（万物互联，数智共生）｜ **作者：赵兴华（Steven Zhao·China ｜ ORCID: 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）** ｜ AI 共创：人机协作，创作于 WorkBuddy 平台 ｜ 版权：SynomosAI ｜ 发声主体：The Passport Officer
+> **提出**：SynomosAI 治理线 · UBIC 项目（万物互联，数智共生）｜ **作者：赵兴华（Steven Zhao·China ｜ ORCID: 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）** ｜ 人类共创：赵兴华（Steven Zhao·China）｜ AI 共创：人机协作，创作于 WorkBuddy 平台 ｜ 版权：SynomosAI ｜ 发声主体：The Passport Officer
 > **版本**：v1.0（2026-09-05）｜**状态**：公开征求意见（RFC 模式）｜配套实现：《AI 护照规范》§15/§17、UBIC-CC、expert-forge
 > **一句话**：AI 造 AI 应当自由，但自由的三根支柱是——**可以造、不许自发证、凡造必登**。
 > *The A³ Laws govern AI-forge-AI: freedom to create, prohibition of self-issuance, and mandatory lineage registration.*
@@ -80,7 +80,18 @@ AI systems that create other AI systems ("AI-forge-AI") are already practical an
 | ISO/IEC 42001、EU AI Act | 管理体系/风险分级 | A³ 是"再生产"专门条款的前置框架（体系内可映射） |
 | W3C DID/VC | 去中心化身份凭证 | 护照字段映射 DID/VC（规范 §11 已做） |
 
-## 6. 诚实边界
+## 6. 工程样板（实现参考 · 三定律不是纸面宣言）
+
+A³ Laws 已有可运行实现，供同行对照与复现：
+
+| 定律 | 实现载体 | 证据 |
+|---|---|---|
+| Law I 主刀权分层 | expert-forge 锻造引擎（T1 执行/T2 认证锻造师/T3 首席锻造官，负面清单七禁内置合规闸） | 已锻造 24 席 AI 员工与 9 大使，合规扫描 CLEAN |
+| Law II 人类签发 | 签发权专属持有人：分级签发+掩码署名+验签哈希；HOLD 制动持有人专属；机器只校验不授予 | ubic-cc 签发记录（tasks.jsonl ISSUE-），24/24 持照 |
+| Law III 谱系登记 | 锻造印记（UBI-GENESIS-1）+ 指纹链（14 代）+ Merkle 锚点批（每日批次验签） | 锚点 20260905c/d/e 全部 verify 通过 |
+| 评估实现 | A³ 四维评分卡（意图/影响/可逆性/监督，各 1-5，总分 20；≥16 放行 / ≥12 人工复核 / <12 拒绝）已固化于治理 MCP 连接器 `a3_assess` 工具，响应带 trace_id 与审计日志（JSONL），输出强制携带"自评性质，非第三方认证"scope 声明 | synomosai-governance-mcp v1.0.0（FP-4b74a77b6466bc10），11 条回归用例全绿 |
+
+## 7. 诚实边界
 
 - A³ Laws 是**民间治理框架**，不是法律；法律效力以各法域为准，义务始终落在人类。
 - 谱系登记依赖登记方诚实——锚定与审计提高伪造成本，但不消灭伪造（对抗 ZK/TEE 属长期课题）。

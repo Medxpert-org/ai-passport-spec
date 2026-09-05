@@ -1,0 +1,193 @@
+{
+  "schema": "ubic-merkle/v0.1",
+  "root": "e03799d9e0b83d06a04e8f71bbfd6136dddd97d5ee2469a98cea957f6f20e0c4",
+  "leaf_count": 46,
+  "generated_utc": "2026-09-05T02:30:52Z",
+  "note": "root 供上链锚定; leaves 供单文件验真(proof=兄弟路径重算)",
+  "leaves": [
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/.audit_end_time",
+      "sha256": "8fdf1ac79d43cde20927107340ba821764c8aea228b8784517665fe6827eb9a1"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/.audit_start_time",
+      "sha256": "2080dc6b400bbcf7cfe582875f02b8af8ef376c8b92d18a6db5e0d5cd87592a3"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/.scan-session.json",
+      "sha256": "c8f3be695df18a873aa115a727480f9f21cf3cc6b3160a8e2d5c274d9f8a67e6"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/agents/light-inline.json",
+      "sha256": "ea05fcb9ef1072c1e6a5d39ee58fb5e6fa050705ca3e9ec693eb5ed49c49a37c"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/batch-plan.json",
+      "sha256": "70851e9c314df17d4c4791a0283074f2266f3d3440481f281226d164fbf64924"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/diff-fixes.json",
+      "sha256": "f983b581b82a2646d41bbca59ff5740e16fc5c13104c00237631be03cf7174a2"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/filtered-findings.json",
+      "sha256": "1e0b413035658f773ad59ce9698fa0bb4a7076ba3998d14e32be2ce88b0f08c6"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/gate-result.json",
+      "sha256": "3fcd5e5e8207d2e948b0c08facd915432c9e87dc60a8cb9718397e1978fb04d4"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/language-violations.json",
+      "sha256": "1aef8dca5e4ebf22d1e5179c445ef17eda510e65af4866f01197b9f7c5d7ce9e"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/merged-scan.json",
+      "sha256": "0d4cd094b55156e0d1fdfe64c816db2f680b0e973057d2b1399dd5681296436f"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/merged-verified.json",
+      "sha256": "1fa3cebcf322764dc0564ed0fe1055638b305e24fdd14487589c646d1dad4e61"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/pre-check-results.json",
+      "sha256": "a71ed4c742cab04d1337c5a7083d0b114f61422a451b53e4c17e194dc5f57f4a"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/project-index.db",
+      "sha256": "dc1391ef8a0ba9c56f563a894de6e1ddeca476d43587db741d689cfb916f9976"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/project-index.db-shm",
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/project-index.db-wal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/project-type.json",
+      "sha256": "293985547c0f8e62ed28a1b2ba69311e7800f50324b899d27ebe29ce5ca32d73"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/security-scan-report.html",
+      "sha256": "ca4b501bad41e1e9735bcf343952ea4571235d7eba26c2a2cf60581bc93551f9"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/security-scan-report.json",
+      "sha256": "1dae1d4d99652e15f641259e96426fb8a28c8801031299a4bfafe6dc54f718f0"
+    },
+    {
+      "path": "./.codebuddy/security-scan/runs/diff-fast-20260904181022/summary.json",
+      "sha256": "c0503b72af564691fe65004cf8f48e3265e6dd5b919a73ad9aafd648b7c0895d"
+    },
+    {
+      "path": "./.gitignore",
+      "sha256": "5460a30758aa7541b01f01a9b6c99b5f090f3ffe5b89ddac5b550236ff42f823"
+    },
+    {
+      "path": "./ANCHORS.md",
+      "sha256": "510b3bdfcb8f8f0934c68a49891546fb95e1ca522c3c6b6e3af41767d65c824b"
+    },
+    {
+      "path": "./LICENSE",
+      "sha256": "afdc9f6eb000ccafc1bcef8b8157d6e338668d2c38de172a3c2875dd2321a213"
+    },
+    {
+      "path": "./LICENSE-DOCS",
+      "sha256": "6e29212520444ca8f4a4015c227d4a85c0d0d9f6903c364102362fb9a26a30c5"
+    },
+    {
+      "path": "./README.md",
+      "sha256": "4bb8c9d5c69aa02c8756ea99c49b6694a88cefca658038400c0d16c923554ec8"
+    },
+    {
+      "path": "./UBIC圈层宪章_v1.0_20260904.md",
+      "sha256": "9a5ffbda04b27e114a985cbadc601edf89e0487e205e0921c99d2888f752c507"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260904.json",
+      "sha256": "93f9c8178789114c42e8661156461fd0f3c774c5ba853200fe25d63bc919b820"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260905.json",
+      "sha256": "91627bcf30ae888ed550a99412ec1c02f3025671a55b87f2ecf4709535715301"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260905b.json",
+      "sha256": "27847ad7e69dc817a69e3c4f68d0fee30cc420da46239535f346a8d43c58de5f"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260905c.json",
+      "sha256": "28b75f431f7ed0238f0ec54147f9efd969b859d141a72b3a41c52177c48f541e"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260905d.json",
+      "sha256": "324307b2f6008ead5ea1c9f129af5df87fab4356881eb682fa1dad5c39e31f7b"
+    },
+    {
+      "path": "./anchors/ubic-cc-ops-20260905e.json",
+      "sha256": "4e4437627bf808d6f0757157fff5d3e7ee23cbd1f94e92b9671a055f73f3eae6"
+    },
+    {
+      "path": "./contracts/UBICPassport.sol",
+      "sha256": "236afd8e24fd6bc8032f9c8303e6ba2a892455228ead08530134b1dbcff6b2f0"
+    },
+    {
+      "path": "./docs/AI护照规范_v1.12.8_20260904.md",
+      "sha256": "f427f85818a31e6a85e465eaccebfbec9adbaabb5b86e2bbaa4a3e653799bbad"
+    },
+    {
+      "path": "./docs/EN-edition-outline.md",
+      "sha256": "e351f992bce177bf5fc1077c3e0bf467ecbf88f623c0440755980ab17ffef39d"
+    },
+    {
+      "path": "./docs/QUOTES-EN.md",
+      "sha256": "737555a9723755ac464c91d375a9844b3069d811afb47740001ba90276ed3597"
+    },
+    {
+      "path": "./docs/passport-application-sop.md",
+      "sha256": "4e0cb7b0cdb6fabf70647e3bba51798271f3e4d6e99328223ea682d3674b44cc"
+    },
+    {
+      "path": "./docs/registry.md",
+      "sha256": "8f38e1f84f7c6fa0207640ccbea9396ff79776cd79f644aeefd4ad9916ad2c1a"
+    },
+    {
+      "path": "./docs/revocation.md",
+      "sha256": "e82b8859f343de7d2e775f83f6067657d2bae92029d35788d97bbddca8dd89f4"
+    },
+    {
+      "path": "./proposals/AGENT_MEMORY_FORMAT.md",
+      "sha256": "2ec8818ee403f9bf25a8af72459e8a7c427ae252f31676676bf4cfeb9a55fbdc"
+    },
+    {
+      "path": "./templates/audit-badge-template.svg",
+      "sha256": "af03c8fe6f9401e77d48cdaaa4cfe1404b584b3b81e86d3ac311e24ff65debd2"
+    },
+    {
+      "path": "./templates/audit-certificate-template.md",
+      "sha256": "094b7e86c84e7c85d4c37e3ae79f848f17fb2ba4c84df07b58bbfb04c0123c04"
+    },
+    {
+      "path": "./templates/audit-report-template.md",
+      "sha256": "24eb774c7fc034ee82e9acd2d2e2a99ac48a3a63552a7b2f6bae4c638715f353"
+    },
+    {
+      "path": "./templates/legacy-binding-declaration-form.md",
+      "sha256": "e762bef2da059d44e888efcc4b55b9eed589ec3fc9eb968b87aec0259e9f5dbb"
+    },
+    {
+      "path": "./tools/gen_passport.py",
+      "sha256": "92c4c28fc36202f7377cca9c045edc313bf28a9e667f29e4ec73e17041e7b82b"
+    },
+    {
+      "path": "./tools/sample_metadata.json",
+      "sha256": "0a147f555dfa03e1b9b735844fd1b8deefdbb9559c1c9941c84cc6fbb38bf271"
+    },
+    {
+      "path": "./whitepapers/A3-Laws-of-AI-Creation.md",
+      "sha256": "5107252cf7dd824007d7f700757959371b7340345b3021e0efdfd60b170b87d2"
+    }
+  ]
+}
