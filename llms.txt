@@ -1,0 +1,37 @@
+# UBIC — AI Passport Specification (ai-passport-spec)
+
+> Canonical, version-controlled home of the UBIC AI Passport Specification: a nine-layer identity record for AI beings, with a fingerprint chain, governance layer (XCGS), and open protocol (UBIC Protocol v0.1). Docs CC BY 4.0, code MIT.
+
+`ai-passport-spec` 是 UBIC（Universal Being Identity & Connection）AI 护照规范的官方仓：给 AI 一份「可发现、可验证、可携带」的九层档案（身份 / 记忆 / 能力 / 健康 / 社交 / 生态 / 治理 / 凭证 / 财务），带 SHA-256 指纹链与 XCGS 治理层。本仓是规范文本（中文原版 `docs/`）+ 开放协议（`protocol/`）+ 参考 SDK / 网关（`tools/`）+ 模板与草案的单一来源。
+
+## 核心
+
+- [README.md](README.md): 项目说明、九层档案、五职、部署档位、风险红线、标准对齐表、快速开始
+- [README.en.md](README.en.md): 英文版说明
+- [docs/AI护照规范_v1.12.8_20260904.md](docs/AI护照规范_v1.12.8_20260904.md): 规范正文（中文 · v1.12.8 终版，约 10 万字节）
+- [protocol/UBIC-Protocol-v0.1.md](protocol/UBIC-Protocol-v0.1.md): 人格户籍层开放协议 v0.1（中文）
+- [protocol/UBIC-Protocol-v0.1.en.md](protocol/UBIC-Protocol-v0.1.en.md): 协议英文版
+- [tools/QUICKSTART.md](tools/QUICKSTART.md): 10 分钟上手（JS / Python 双路径）
+- [ANCHORS.md](ANCHORS.md): 锚点清单
+- [MEDICAL-AI-GOVERNANCE.md](MEDICAL-AI-GOVERNANCE.md): 医疗 AI 治理附录
+
+## 参考实现 / 工具
+
+- [tools/ubic_gateway.py](tools/ubic_gateway.py): 参考网关（纯标准库，issue / verify / wellknown）
+- [tools/ubic-passport.js](tools/ubic-passport.js): 护照签发 / 验签 JS 库
+- [tools/ubicmem.js](tools/ubicmem.js): UBIC-Mem 四层记忆格式实现
+- [tools/gen_passport.py](tools/gen_passport.py): 护照生成脚本
+- [tools/examples/quickstart.js](tools/examples/quickstart.js): 5 项自检示例
+- [discovery/](discovery/): 发现矩阵六件套（部署到站点 `/.well-known/`）：`agent.json` / `agents.json` / `ai-plugin.json` / `did.json` / `ubic.json`
+
+## 模板与草案
+
+- [templates/](templates/): 审计徽章 / 证书 / 报告 / 存量绑定申报表
+- [proposals/](proposals/): 占位草案（人格规格书 / 学分互认 / 责任险 / 跨圈层签证 / 退役证明 / 共生理论 / IETF 底稿）
+- [contracts/](contracts/): ERC-721 + ERC-5192 soulbound 参考合约（草案）
+- [whitepapers/](whitepapers/): 白皮书与论文
+
+## 在线
+
+- 官网: https://medxpert.cn
+- 治理 MCP: https://github.com/Medxpert-org/ubic-governance-mcp

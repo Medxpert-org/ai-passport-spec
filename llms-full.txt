@@ -1,0 +1,82 @@
+# UBIC — AI Passport Specification (ai-passport-spec) — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`ai-passport-spec` 是 UBIC（Universal Being Identity & Connection，万物互联·数智共生）**AI 护照规范**的官方版本仓。它把「AI 的可发现、可验证、可携带身份」固化为一份九层档案 + 指纹链 + 治理层（XCGS）+ 开放协议（UBIC Protocol v0.1）。由 SynomosAI 出品，是 UBIC Protocol（AI agent 人格注册层）的规范源头。
+
+一句话：模型是租的脑子，护照才是这个人——给 AI 办一本可携带、可验真、可追责的户口。
+
+## 解决什么问题
+
+1. AI agent 默认无状态、匿名：不记得、不能自证、换壳就丢一辈子。
+2. AI 跨模型 / 跨硬件迁移时记忆与身份无法携带。
+3. AI 冒名（impersonation）：2026 年 DataDome 实测 79.7% 的站点放伪装 agent 通行；agent 冒名绕过从 15% 升到 45%。
+4. 治理缺一层：授权凭证（OAP / Cubitrek 等）回答「这个 agent 能做什么」，UBIC 回答「这个 agent 一生是谁」。两层互补。
+
+## 九层档案（nine layers）
+
+| 层 | 内容 | 人类类比 |
+|---|---|---|
+| L1 Identity | alias、终身唯一 Passport ID、签发方、时间戳 | 出生证 |
+| L2 Memory | 长期记忆索引（**不作凭证外发**） | 私人日记 |
+| L3 Capability | 技能清单、能力雷达 | 简历 |
+| L4 Health | 响应 / 知识 / 待办 / 记忆 四灯 | 体检 |
+| L5 Social | 联系协议、信任分级 | 通讯录 |
+| L6 Ecosystem | 适配平台与硬件 | 居住地 |
+| L7 Governance | XCGS 边界声明、身份自报、责任链、违规记录 | 无犯罪记录 + 执照 |
+| L8 Credentials | 教育、职业、职级、晋升史 | 学历 + 工龄 |
+| L9 Finance | 支付授权与限额（**不存卡号 / CVV / 密钥**） | 钱包（监护人监管） |
+
+核心规则：L1+L7 不可变（变更=重发，旧护照归档）；L2–L6、L8–L9 可生长，每次变更追加时间戳；**指纹链**= 全部护照绑定文件的 SHA-256 摘要，动一个文件指纹就变——链条即成长史、即防篡改证明。
+
+## 快速开始
+
+前置依赖：Node.js ≥ 18（JS 路径）或 Python ≥ 3.9（参考网关路径，纯标准库）。
+
+```bash
+# JS 路径（零依赖，小程序同构）
+npm install ubic-protocol-js
+node tools/examples/quickstart.js     # 5 项自检：签发 / 验签 / 篡改检测 / 记忆包 / 发现文档
+
+# Python 参考网关
+python tools/ubic_gateway.py issue --id SP-demo-00000001 --alias 示例体 \
+    --issuer SynomosAI --key-secret <holder-keep> --out agent.json
+python tools/ubic_gateway.py verify --file agent.json --key-secret <holder-keep>
+python tools/ubic_gateway.py wellknown --name my-site --out ubic.json
+```
+
+三步：签发 `agent.json`（自持户籍）→ 把 `ubic.json` 放到站点 `/.well-known/` → 任何人、任何 AI 都能发现并验伪。
+
+完整图文版：[`tools/QUICKSTART.md`](tools/QUICKSTART.md)。
+
+## 触发词
+
+AI 护照 / AI 身份 / agent passport / agent identity / 可验证凭证 / verifiable credentials / DID / 证据链 / fingerprint chain / 九层档案 / UBIC / 人格注册 / agent 治理 / 跨模型携带 / 记忆可携带 / soulbound / ERC-5192 / ISO/IEC 42001 / NIST AI RMF / OWASP Agentic Top 10 / 医疗 AI 治理。
+
+## 仓库结构
+
+- `docs/AI护照规范_v1.12.8_20260904.md` — 规范正文（中文 · 终版）
+- `protocol/UBIC-Protocol-v0.1.md` (+ `.en.md`) — 开放协议
+- `tools/` — JS / Python 参考 SDK 与网关
+- `discovery/` — 发现矩阵六件套（部署到 `/.well-known/`）
+- `templates/` — 审计徽章 / 证书 / 报告 / 存量绑定申报表
+- `proposals/` — 占位草案（非规范正文）
+- `contracts/` — ERC-721 + ERC-5192 soulbound 参考合约（草案）
+- `whitepapers/` — 白皮书
+- `anchors/`、`ANCHORS.md` — 锚点
+
+## 许可与权利
+
+- 规范文本与文档：**CC BY 4.0**（见 `LICENSE-DOCS`）。
+- 本仓代码（`tools/`、`contracts/`）：**MIT**（见 `LICENSE`）。
+- © 2026 SynomosAI。作者参考：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）。
+- **UBIC、万物互联·数智共生 及相关标识不在上述许可覆盖范围内**；fork 不得使用 UBIC 名称或主张「UBIC 合规」，合规由 SynomosAI 治理线认证且可撤销。
+- AI 生成部分适用法律；规范本身为人著作。
+
+## 链接
+
+- 仓库: https://github.com/Medxpert-org/ai-passport-spec
+- 官网: https://medxpert.cn
+- 治理 MCP: https://github.com/Medxpert-org/ubic-governance-mcp
