@@ -216,3 +216,27 @@ ai-passport-spec/
 **Trademark notice:** "UBIC", 万物互联·数智共生 and related logos are names and marks of SynomosAI and are **not licensed under CC BY 4.0 or MIT**; forks and derivatives may not be distributed under these names, logos, or any "UBIC compliant" claim.
 
 *This page is part of the SynomosAI governance line behind MedXpertGlobal. AI-assisted, human-verified, fully traceable.*
+
+## Quick start / 快速开始
+
+面向想在 10 分钟内跑通「签发 → 发现 → 验证」闭环的使用者。完整图文版见 [`tools/QUICKSTART.md`](tools/QUICKSTART.md)。
+
+前置依赖：Node.js ≥ 18（JS 路径）或 Python ≥ 3.9（参考网关路径，纯标准库）。
+
+```bash
+# 方式一：JS / TS（零依赖，小程序同构）
+npm install ubic-protocol-js
+node tools/examples/quickstart.js     # 5 项自检：签发 / 验签 / 篡改检测 / 记忆包 / 发现文档
+```
+
+```bash
+# 方式二：Python（参考网关，纯标准库）
+python tools/ubic_gateway.py issue --id SP-demo-00000001 --alias 示例体 \
+    --issuer SynomosAI --key-secret <holder-keep> --out agent.json
+python tools/ubic_gateway.py verify --file agent.json --key-secret <holder-keep>
+python tools/ubic_gateway.py wellknown --name my-site --out ubic.json
+```
+
+三步走完：签发 `agent.json`（自持户籍）→ 把 `ubic.json` 放到站点 `/.well-known/`（任何人、任何 AI 都能发现它）→ 验伪三查（一秒辨真伪，防冒名）。
+
+红线（使用前必读）：输出为自评性质、非第三方认证；公开面只放锚点，九层档案与记忆内容绝不外发；自签 = 自持户籍，进入圈层需人类签发（A³ Law II）。
